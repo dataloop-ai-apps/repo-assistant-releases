@@ -13,7 +13,7 @@ Pre-built releases of the Repo Assistant MCP server for [Cursor IDE](https://cur
       "command": "uvx",
       "args": [
         "--from",
-        "https://github.com/dataloop-ai-apps/repo-assistant-releases/releases/download/v0.2.3/repo_assistant_mcp-0.2.3-py3-none-any.whl",
+        "https://github.com/dataloop-ai-apps/repo-assistant-releases/releases/download/0.2.3/repo_assistant_mcp-0.2.3-py3-none-any.whl",
         "repo-assistant-mcp"
       ]
     }
