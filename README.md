@@ -1,6 +1,6 @@
-# Repo Assistant - Releases
+# Dev Control Plane (DCP) - Releases
 
-Pre-built releases of the Repo Assistant MCP server for [Cursor IDE](https://cursor.com/).
+Pre-built releases of the Dev Control Plane MCP server for [Cursor IDE](https://cursor.com/).
 
 ## Installation
 
@@ -9,12 +9,12 @@ Pre-built releases of the Repo Assistant MCP server for [Cursor IDE](https://cur
 ```json
 {
   "mcpServers": {
-    "repo-assistant": {
+    "dcp": {
       "command": "uvx",
       "args": [
         "--from",
-        "https://github.com/dataloop-ai-apps/repo-assistant-releases/releases/download/0.2.3/repo_assistant_mcp-0.2.3-py3-none-any.whl",
-        "repo-assistant-mcp"
+        "https://github.com/dataloop-ai-apps/dcp-releases/releases/download/0.3.0/dcp_mcp-0.3.0-py3-none-any.whl",
+        "dcp-mcp"
       ]
     }
   }
@@ -23,7 +23,7 @@ Pre-built releases of the Repo Assistant MCP server for [Cursor IDE](https://cur
 
 2. Restart Cursor.
 
-> Replace the version in the URL with the [latest release](https://github.com/dataloop-ai-apps/repo-assistant-releases/releases).
+> Replace the version in the URL with the [latest release](https://github.com/dataloop-ai-apps/dcp-releases/releases).
 
 ## What is this?
 
